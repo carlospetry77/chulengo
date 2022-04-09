@@ -8,3 +8,6 @@ import utils as fn
 
 saludo = fn.hola("Chulengo")
 
+
+fn.write_lcd("Chulengo SAS")
+
