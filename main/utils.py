@@ -41,7 +41,7 @@ def conveyor_belt(mode):
     elif mode == 'OFF':
         return print("Cinta apagada...")
 
-def whaser(seg=0, mode):
+def whaser(mode, seg=0):
     if mode == 'ON'and seg > 0:
         print("Lavando botellas...")
     elif mode == 'ON' and seg <= 0:
